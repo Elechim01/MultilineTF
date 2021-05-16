@@ -38,7 +38,7 @@ struct MultiLineTF: UIViewRepresentable {
         }
         func textViewDidBeginEditing(_ textView: UITextView) {
             textView.text = ""
-//            per la darkmode uso label che è un text colo 
+//            per la darkmode uso label che è un text color 
             textView.textColor = .label
         }
     }
